@@ -1,0 +1,42 @@
+#dynamic-rows-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#dynamic-rows-table th,
+#dynamic-rows-table td {
+  padding: 10px;
+  text-align: left;
+  vertical-align: middle;
+  border-bottom: 1px solid #ddd;
+}
+
+#dynamic-rows-table th {
+  background-color: #f4f4f4;
+}
+
+#dynamic-rows-table td input[type="text"] {
+  width: 95%; /* Adjust width to fit input fields nicely */
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+#dynamic-rows-table td button {
+  background-color: #f56c6c;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#dynamic-rows-table td button:hover {
+  background-color: #d9534f; /* Darken button on hover */
+}
+
+
+
+button#add-row:hover {
+  background-color: #0073aa;
+  color: #ffffff; /* Darken the add-row button on hover */
+}
